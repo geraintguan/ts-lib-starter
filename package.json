@@ -1,0 +1,26 @@
+{
+  "name": "@geraintguan/ts-lib-starter",
+  "version": "0.0.0-dev",
+  "description": "My personal starter kit for writing Typescript/Javascript libraries.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "email": "mail@geraint.io",
+    "name": "Geraint Guan"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@tsconfig/node22": "^22.0.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-perfectionist": "^4.6.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "3.4.2",
+    "typescript-eslint": "^8.19.1"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.5"
+  }
+}

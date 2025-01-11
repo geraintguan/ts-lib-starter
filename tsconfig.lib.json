@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": []
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules"]
+}
