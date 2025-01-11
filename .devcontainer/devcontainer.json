@@ -1,0 +1,26 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "nodeGypDependencies": true,
+      "version": "latest",
+      "pnpmVersion": "latest",
+      "nvmVersion": "latest"
+    }
+  },
+  "image": "mcr.microsoft.com/devcontainers/base:latest",
+  "name": "@geraintguan/ts-lib-starter",
+  "postStartCommand": "./.devcontainer/scripts/post-start.bash"
+}
